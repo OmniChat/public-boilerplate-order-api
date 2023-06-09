@@ -26,7 +26,7 @@ export const orderChecker: APIGatewayProxyHandler = async (event) => {
 function verifyItemStock(item: any): boolean {
   // VOCE PODE VALIDAR O ESTOQUE DESSE ITEM NO SEU ERP E RETORNAR COMO INDISPONIVEL PARA OMNICHAT 
   
-  return Math.random() < 0.5; // retorna true ou false aleatóriamente para teste
+  return item.quantity % 2 == 1; // retorna true para numero impar e false para numero par, somente para teste 
 }
 
 function getItemStockUnavailableOption(item: any): Record<string, unknown> {
