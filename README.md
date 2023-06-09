@@ -64,4 +64,4 @@ The project code base is mainly located within the `src` folder. This folder is 
 
 
 ### Notes
-To use all features in this boilerplate you have to generate a secret key on omnichat app settings and fill the information on utils.ts 
+To use all features in this boilerplate you have to create a secret key on omnichat app settings and fill the information on utils.ts 
