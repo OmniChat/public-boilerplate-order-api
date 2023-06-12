@@ -96,7 +96,7 @@ class CommerceCatalog {
           ],
         },
         {
-          id: "12345-3",
+          objectId: "12345-3",
           externalImageURL:
             "https://www.apple.com/newsroom/images/product/iphone/geo/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-silver-220907-geo_inline.jpg.large.jpg", //<url-da-imagem-da-variante>
           erpId: "54321-2", //<id-do-produto-no-erp>
