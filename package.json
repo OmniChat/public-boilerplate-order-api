@@ -1,6 +1,6 @@
 {
   "name": "public-boilerplate-order-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serverless aws-nodejs-typescript template",
   "author": "Rafael da Rocha <github.com/rafaeldarocha>",
   "main": "serverless.ts",

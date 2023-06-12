@@ -2,11 +2,15 @@ class CommerceCatalog {
   getProducts: any = (name: string) => {
     // sugestão: usar um elastic search para uma melhor experiência na pesquisa
     // e com base no retorno converter para o formato esperado pela OmniChat
-    return this.omniFormatProductList.filter((product) =>
-      product.variants.some((variant) =>
-        variant.name.toLowerCase().includes(name.toLocaleLowerCase())
-      )
-    );
+    if (name) {
+      return this.omniFormatProductList.filter((product) =>
+        product.variants.some((variant) =>
+          variant.name.toLowerCase().includes(name.toLocaleLowerCase())
+        )
+      );
+    }
+
+    return this.omniFormatProductList;
   };
 
   omniFormatProductList = [
