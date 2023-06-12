@@ -4,9 +4,12 @@
 
 > **Requirements**: NodeJS `(v.16.20.0)`. If you're using [nvm](https://github.com/nvm-sh/nvm), run `nvm use` to ensure you're using the same Node version in local and in your lambda's runtime.
 
-> **before start**: To use all features in this boilerplate you have to create a secret key on omnichat app settings and fill the information on utils.ts file.
+## before start 
 
-> **starting the project**: 
+- To use all features in this boilerplate you have to create a secret key on omnichat app settings and fill the information on utils.ts file.
+
+## Starting the project  
+
 - Run `npm i` to install the project dependencies
 - Run `npm start` to run this project on localhost
 - Run `npm run deploy` to deploy this stack to AWS
