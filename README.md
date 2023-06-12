@@ -4,6 +4,9 @@
 
 > **Requirements**: NodeJS `(v.16.20.0)`. If you're using [nvm](https://github.com/nvm-sh/nvm), run `nvm use` to ensure you're using the same Node version in local and in your lambda's runtime.
 
+> **before start**: To use all features in this boilerplate you have to create a secret key on omnichat app settings and fill the information on utils.ts file.
+
+> **starting the project**: 
 - Run `npm i` to install the project dependencies
 - Run `npm start` to run this project on localhost
 - Run `npm run deploy` to deploy this stack to AWS
@@ -14,7 +17,7 @@
 - send a request to `/catalog` using `GET` method to list some example products
 
 
-> :warning: As is, this template, once deployed, opens a **public** endpoint within your AWS account resources. Anybody with the URL can actively execute the API Gateway endpoint and the corresponding lambda. You should protect this endpoint with the authentication method of your choice.
+> :warning: As is, this template, once deployed, opens a **public** endpoint within your AWS account resources. Anybody with the URL can actively execute the API Gateway endpoint and the corresponding lambda. if you prefer, you can protect this endpoint with the authentication method of your choice.
 
 
 ### Project structure
@@ -61,7 +64,3 @@ The project code base is mainly located within the `src` folder. This folder is 
 ├── tsconfig.json               # Typescript compiler configuration
 ├── tsconfig.paths.json         # Typescript paths
 ```
-
-
-### Notes
-To use all features in this boilerplate you have to create a secret key on omnichat app settings and fill the information on utils.ts 
