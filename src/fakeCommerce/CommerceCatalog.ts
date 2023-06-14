@@ -121,6 +121,7 @@ class CommerceCatalog {
         },
       ],
       sellOutOfStock: false, //se deseja permitir a venda do produto mesmo quando não houver estoque
+      trackInventory: true
     },
     {
       blocked: false,
@@ -181,6 +182,7 @@ class CommerceCatalog {
         },
       ],
       sellOutOfStock: false, //se deseja permitir a venda do produto mesmo quando não houver estoque
+      trackInventory: true
     },
   ];
 }
