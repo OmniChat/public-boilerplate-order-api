@@ -23,6 +23,10 @@ class CommerceCatalog {
       productDescription: "Produto de teste", //<descrição-do-produto>
       externalUrl: "https://www.apple.com/br/iphone-14-pro/", //<url-do-produto-no-ecommerce>
       mainVariant: {
+        width: 7.15,
+        height: 14.8,
+        length: 1,
+        weight: 206,
         objectId: "12345-1",
         externalId: "12345-1", //<id-do-variant-na-origem>
         externalImageURL:
@@ -48,6 +52,10 @@ class CommerceCatalog {
       },
       variants: [
         {
+          width: 7.15,
+          height: 14.8,
+          length: 1,
+          weight: 206,
           objectId: "12345-1",
           externalImageURL:
             "https://www.apple.com/newsroom/images/product/iphone/geo/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-deep-purple-220907-geo_inline.jpg.large.jpg", //<url-da-imagem-da-variante>
@@ -72,6 +80,10 @@ class CommerceCatalog {
           ],
         },
         {
+          width: 7.15,
+          height: 14.8,
+          length: 1,
+          weight: 206,
           objectId: "12345-2",
           externalId: "12345-2", //<id-do-variant-na-origem>
           externalImageURL:
@@ -124,6 +136,10 @@ class CommerceCatalog {
       trackInventory: true
     },
     {
+      width: 7.15,
+      height: 14.8,
+      length: 1,
+      weight: 206,
       blocked: false,
       externalProduct: true,
       objectId: "123456", //<id-do-produto-da-origem>
@@ -132,6 +148,10 @@ class CommerceCatalog {
       productDescription: "Produto de teste", //<descrição-do-produto>
       externalUrl: "https://www.apple.com/br/shop/buy-iphone/iphone-13", //<url-do-produto-no-ecommerce>
       mainVariant: {
+        width: 7.15,
+        height: 14.8,
+        length: 1,
+        weight: 206,
         objectId: "123456-1",
         externalId: "123456-2", //<id-do-variant-na-origem>
         externalImageURL:
@@ -157,6 +177,10 @@ class CommerceCatalog {
       },
       variants: [
         {
+          width: 7.15,
+          height: 14.8,
+          length: 1,
+          weight: 206,
           objectId: "123456-1",
           externalId: "123456-1", //<id-do-variant-na-origem>
           externalImageURL:
