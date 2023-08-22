@@ -25,7 +25,7 @@ class CommerceCatalog {
       mainVariant: {
         width: 7.15,
         height: 14.8,
-        length: 1,
+        itemLength: 1,
         weight: 206,
         objectId: "12345-1",
         externalId: "12345-1", //<id-do-variant-na-origem>
@@ -54,7 +54,7 @@ class CommerceCatalog {
         {
           width: 7.15,
           height: 14.8,
-          length: 1,
+          itemLength: 1,
           weight: 206,
           objectId: "12345-1",
           externalImageURL:
@@ -82,7 +82,7 @@ class CommerceCatalog {
         {
           width: 7.15,
           height: 14.8,
-          length: 1,
+          itemLength: 1,
           weight: 206,
           objectId: "12345-2",
           externalId: "12345-2", //<id-do-variant-na-origem>
@@ -138,7 +138,7 @@ class CommerceCatalog {
     {
       width: 7.15,
       height: 14.8,
-      length: 1,
+      itemLength: 1,
       weight: 206,
       blocked: false,
       externalProduct: true,
@@ -150,7 +150,7 @@ class CommerceCatalog {
       mainVariant: {
         width: 7.15,
         height: 14.8,
-        length: 1,
+        itemLength: 1,
         weight: 206,
         objectId: "123456-1",
         externalId: "123456-2", //<id-do-variant-na-origem>
@@ -179,7 +179,7 @@ class CommerceCatalog {
         {
           width: 7.15,
           height: 14.8,
-          length: 1,
+          itemLength: 1,
           weight: 206,
           objectId: "123456-1",
           externalId: "123456-1", //<id-do-variant-na-origem>
